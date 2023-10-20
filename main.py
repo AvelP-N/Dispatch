@@ -97,7 +97,7 @@ def main():
         if list_data:
             for data in set(list_data):
                 if data.isdigit():
-                    # sms(data)  # Проверка СМС рассылки сейчас не работает
+                    sms(data)
                     email(data)
                 else:
                     if data.isascii():
