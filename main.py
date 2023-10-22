@@ -113,7 +113,7 @@ def main():
 
 if __name__ == '__main__':
     with pyodbc.connect('Driver={SQL Server};'
-                        'Server=CROC-DKRAT-01\SQLEXPRESS;'
+                        'Server=Server;'
                         'Trusted_Connection=YES') as connectDB:
         cursor = connectDB.cursor()
         main()
