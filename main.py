@@ -1,8 +1,8 @@
-from colorama import init, Fore, Back, Style
-from win32api import SetConsoleTitle
-from tabulate import tabulate
-import pyodbc
 import re
+import pyodbc
+from tabulate import tabulate
+from win32api import SetConsoleTitle
+from colorama import init, Fore, Back, Style
 
 
 def main():
